@@ -179,3 +179,33 @@ body {
         font-size: 29px; 
     }
 }
+
+@media (max-width: 1070px) {
+    .bento {
+        justify-content: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        grid-template-columns: 300px;
+        grid-template-rows: 350px;
+        grid-template-areas:
+        "b"
+        "e"
+        "f"
+        "c"
+        "h"
+        "g"
+        "a"
+        "d";
+    } 
+
+    .h {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .d img {
+        width: 15rem;
+        height: 16rem;
+    }
+
+}
